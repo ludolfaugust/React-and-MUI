@@ -1,0 +1,10 @@
+.phoneicon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 3rem;
+}
+.phonenumber {
+  margin-bottom: -5px;
+  padding: 1rem;
+}

@@ -11,6 +11,9 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
+import PhoneIcon from "@mui/icons-material/Phone";
+import EmailIcon from "@mui/icons-material/Email";
+import "./Navbar.css";
 
 const pages = ["Products", "Pricing", "Blog"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -102,6 +105,14 @@ const Navbar = () => {
               </Button>
             ))}
           </Box>
+          <div className="phoneicon">
+            <PhoneIcon />
+            <p className="phonenumber">030998776555</p>
+          </div>
+          <div className="phoneicon">
+            <EmailIcon />
+            <p className="phonenumber">shop@mail.com</p>
+          </div>
 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
