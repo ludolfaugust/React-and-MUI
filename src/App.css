@@ -6,9 +6,10 @@
   text-align: center;
 }
 
-.cards-container {
+.grid-cards {
   display: flex;
   justify-content: center;
-  background-color: blue;
   align-items: center;
+  padding-top: 5rem;
+  color: red;
 }

@@ -44,8 +44,8 @@ const card = (
 
 export default function Cards() {
   return (
-    <Container className="cards-container" maxWidth="xl" justify="center">
-      <Grid container spacing={4}>
+    <Container maxWidth="xl">
+      <Grid className="grid-cards" container spacing={4}>
         <Grid item>
           <Card variant="outlined">{card}</Card>
         </Grid>
