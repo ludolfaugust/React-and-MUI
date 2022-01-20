@@ -5,3 +5,10 @@
   font-family: "PT Sans", sans-serif;
   text-align: center;
 }
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+  align-items: center;
+}
