@@ -1,19 +1,18 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
+import { BrowserRouter as Router } from "react-router-dom";
+import OutlinedCard from "./components/Cards/OutLinedCard";
 //import Slider from "./components/Slider";
-
-import Cards from "./components/Products/Cards.js/Cards";
-
-import Grid from "@mui/material/Grid";
 
 function App() {
   return (
     <div className="App">
       <h1>Coding Exercises with material-ui and Bootstrap</h1>
-      <Navbar />
-
-      {/* <Slider /> */}
-      <Cards />
+      <Router>
+        <Navbar />
+        {/* <Slider /> */}
+      </Router>
+      <OutlinedCard />
     </div>
   );
 }
